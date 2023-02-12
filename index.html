@@ -5,27 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <script src="miniproject.js"></script>
+  <script src="gpacalculator.js"></script>
   
   <title>Main Page</title>
 </head>
 <body>
   
   <div class="container">
-    <h1>Calculator 1:</h1>
-    <h3>This is a simple Calculator:</h3>
+    <h1>GPA Calculator:</h1>
+    <h3>Enter Info Below:</h3>
   </div>
   <div>
-    <label for="num1">1st Number</label>
+    <label for="fName">First Name:</label>
+    <input type="text" id="fName">
+  </div>
+  <div>
+    <label for="num1">Grade in #:</label>
     <input type="number" id="num1">
   </div>
+  
+  <button id="calculateButton">Submit</button>
+  
   <div>
-    <label for="num2">2nd Number</label>
-    <input type="number" id="num2">
+    <label for="result">Result in Alpha:</label>
+    <p></p>
   </div>
-  
-  <button id="calculateButton">Name?</button>
-  
 
 
 </body>
